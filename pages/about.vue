@@ -1,7 +1,9 @@
-<template>This page about us</template>
+<template>
+  <div>This page about us</div>
+</template>
 
-<script setup lang="ts">
-// definePageMeta({
-//   layout: "another",
-// });
+<script setup>
+useHead({
+  title: "About",
+});
 </script>
